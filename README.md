@@ -25,17 +25,5 @@ change the api_key into your own
 Ensure working directory is root of the repository.
 
 ```bash
-python machine_learning.py 'your own requirement'
+streamlit run app.py
 ```
-if you want our agent solve your problems with tools:
-```bash
-python machine_learning_with_tools.py 'your own requirement'
-```
-
-
-There is two react modes of our agent: 'plan_and_act', the default one , and 'react'.
-
-And you can set it by using command like:
-```bash
-python machine_learning.py 'your own requirement' react
-python machine_learning_with_tools.py 'your own requirement' react
