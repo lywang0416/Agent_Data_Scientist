@@ -4,6 +4,7 @@ Our data scientist agent can do everything that a true data scientist can do as 
 ## setup environment
 ```bash
 pip install --upgrade metagpt
+pip install streamlit
 cd MetaGPT
 metagpt --init-config
 ```
